@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="buildcap" name="Hello-World-Applet">
+  <!-- Applet building dependencies -->
+
+  <property name="JC301" value="extlibs/jc304_kit"/>
+   
+  <!-- ant-javacard task from javacard.pro -->
+  <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="tools/ant-javacard.jar"/>
+  
+  <!-- CCU2F applet on Sm@rtCafe Expert 7 C3-->
+  <target name="buildcap">
+  	<delete file="cap/hw.cap"/>
+    <javacard jckit="${JC301}">
+      <cap output="cap/hw.cap" aid="A000000648" sources="src">
+        <applet class="de.asdfjkl.helloworld.javacard.MainApplet" aid="A0000006482F0002"/>
+      </cap>
+    </javacard>
+  </target>
+ 	
+ <!-- Install Applet -->
+ <target name="install" depends="buildcap"> 
+    <exec executable="cmd">
+  	  <arg value="scripts/install+personalize.bat"/> 
+  	</exec> 
+ </target> 
+	
+</project>
