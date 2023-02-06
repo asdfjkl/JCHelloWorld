@@ -1,8 +1,8 @@
 # Java Card - Hello World
 
 It's kinda tricky to set up all the tooling to build a simple JavaCard project. 
-Fortunately, it got way easier thanks to the excellent (GlobalPlatformPro)[https://github.com/martinpaljak/GlobalPlatformPro]
-and (ant-javacard)[https://github.com/martinpaljak/ant-javacard].
+Fortunately, it got way easier thanks to the excellent [GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro)
+and [ant-javacard](https://github.com/martinpaljak/ant-javacard).
 
 This repo is a simple HelloWorld for JavaCard, including all the tooling. It is assumed that you work in typical Linux environment (e.g. Ubuntu 22.04). These are the steps to build your first applet, install it on a JavaCard, and communicate with the applet.
 
