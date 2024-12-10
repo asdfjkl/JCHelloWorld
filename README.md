@@ -21,7 +21,7 @@ These are the steps to build your first applet, install it on a JavaCard, and co
 
 ## Install JavaCard libs
 
-* Go to [Oracle](https://www.oracle.com/java/technologies/javacard-sdk-downloads.html) to download load the JavaCard Development Kit. 
+* Go to [Oracle](https://www.oracle.com/java/technologies/javacard-sdk-downloads.html) to download the JavaCard Development Kit. 
   I suggest JavaCard 3.0.4 which should work with any JavaCard that you can buy on the open market as of now (02/2023).
   Unzipping the download, there should be a folder with jar's named 
   - `ant-contrib-1.xx.jar`,
