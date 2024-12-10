@@ -34,7 +34,7 @@ These are the steps to build your first applet, install it on a JavaCard, and co
 * Alternatively go to [this page](https://github.com/martinpaljak/oracle_javacard_sdks) and
   download the appropriate JavaCard Development Kit there
 
-## Setup Projectin Eclipse and Change Compiler Settings
+## Setup Project in Eclipse and Change Compiler Settings
 
 * Start Eclipse, then 
   - `File -> Import -> Existing Projects into Workspace`
