@@ -38,7 +38,7 @@ These are the steps to build your first applet, install it on a JavaCard, and co
 
 * Start Eclipse, then 
   - `File -> Import -> Existing Projects into Workspace`
-  - and select the path of this clone repo, i.e. `/.../JCHelloWorld`, then `Finish`
+  - and select the path of this cloned repo, i.e. `/.../JCHelloWorld`, then `Finish`
 * If there are linker errors, go to 
   - `Project -> Properties -> Java Build Path -> Libraries` and there
   - remove all libs
@@ -52,7 +52,7 @@ These are the steps to build your first applet, install it on a JavaCard, and co
 * Alternatively for the last step: manually use `gp.jar` (cf. `install+personalize.sh`) to install the `CAP`:
   - Open terminal
   - change to `/.../tools` and then
-  - `java -jar tools/gp.jar -install cap/hw.cap` (frehs installation) or 
+  - `java -jar tools/gp.jar -install cap/hw.cap` (fresh installation) or 
   -`java -jar tools/gp.jar -reinstall cap/hw.cap` (to install and overwrite existing applet)
   
 ## Compiler Settings
